@@ -31,8 +31,7 @@ def step(num):
 def ReLu(array, cutoff = 0):
     return numpy.where(array < cutoff, cutoff, array)
 # -----------------------------------------------
-def ReLU(array, cutoff = 0):
-    return numpy.where(array < cutoff, cutoff, array)
+
 
 # Task 3:
 # Instructions:
